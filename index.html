@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>J &amp; J Electrical Construction | Electrician in Nassau, NY</title>
+  <meta name="description" content="Electrician in Nassau, NY serving Rensselaer County. Service upgrades, panels, generators, solar, EV chargers, pools and new construction. Call (518) 858-2105.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Martian+Mono:wdth,wght@75..112.5,300..800&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "J & J Electrical Construction LLC",
+    "telephone": "+1-518-858-2105",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "177 Rohloff Rd",
+      "addressLocality": "Nassau",
+      "addressRegion": "NY",
+      "postalCode": "12123",
+      "addressCountry": "US"
+    },
+    "areaServed": "Rensselaer County, NY",
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "07:00",
+      "closes": "19:00"
+    }],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "21" }
+  }
+  </script>
+</head>
+<body>
+
+<!-- plan symbols, reused in the legend -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="s-400" viewBox="0 0 48 36"><rect x="5" y="8" width="38" height="20"/><text x="24" y="21.5" text-anchor="middle" font-size="9">400A</text></symbol>
+    <symbol id="s-panel" viewBox="0 0 48 36"><rect x="8" y="8" width="32" height="20"/><path d="M8 28 L40 8 V28 Z" class="fill"/></symbol>
+    <symbol id="s-gen" viewBox="0 0 48 36"><circle cx="24" cy="18" r="12"/><text x="24" y="22" text-anchor="middle" font-size="11">G</text></symbol>
+    <symbol id="s-pv" viewBox="0 0 48 36"><rect x="8" y="8" width="32" height="20"/><path d="M8 28 L40 8"/><text x="15" y="17" font-size="7">PV</text></symbol>
+    <symbol id="s-ev" viewBox="0 0 48 36"><rect x="8" y="8" width="32" height="20"/><text x="24" y="21.5" text-anchor="middle" font-size="10">EV</text></symbol>
+    <symbol id="s-pool" viewBox="0 0 48 36"><rect x="8" y="8" width="32" height="20"/><path d="M12 19 q3 -5 6 0 t6 0 t6 0 t6 0"/></symbol>
+    <symbol id="s-motor" viewBox="0 0 48 36"><circle cx="24" cy="18" r="12"/><text x="24" y="22" text-anchor="middle" font-size="11">M</text></symbol>
+    <symbol id="s-house" viewBox="0 0 48 36"><path d="M10 31 V16 L24 5 L38 16 V31 Z"/><path d="M20 31 V22 H28 V31"/></symbol>
+    <symbol id="s-jbox" viewBox="0 0 48 36"><circle cx="24" cy="18" r="12"/><text x="24" y="22" text-anchor="middle" font-size="11">J</text></symbol>
+    <symbol id="s-meter" viewBox="0 0 48 36"><circle cx="24" cy="18" r="12"/><text x="24" y="20.5" text-anchor="middle" font-size="7">kWh</text></symbol>
+    <symbol id="s-recep" viewBox="0 0 48 36"><circle cx="24" cy="18" r="9"/><path d="M9 15 H39 M9 21 H39"/></symbol>
+    <symbol id="s-rv" viewBox="0 0 48 36"><rect x="5" y="8" width="38" height="18"/><circle cx="14" cy="29" r="3.5"/><circle cx="34" cy="29" r="3.5"/><text x="24" y="21" text-anchor="middle" font-size="8">RV</text></symbol>
+    <symbol id="s-grow" viewBox="0 0 48 36"><path d="M8 31 V16 Q24 2 40 16 V31 Z"/><path d="M24 31 V20 M24 24 q-5 -1 -6 -6 M24 22 q5 -1 6 -6"/></symbol>
+    <symbol id="s-data" viewBox="0 0 48 36"><path d="M24 6 L37 29 H11 Z"/></symbol>
+    <symbol id="s-xfmr" viewBox="0 0 48 36"><circle cx="19" cy="18" r="9"/><circle cx="29" cy="18" r="9"/></symbol>
+  </defs>
+</svg>
+
+<div class="sheet">
+  <div class="zones zones--top" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
+  <div class="zones zones--side" aria-hidden="true"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span></div>
+
+  <header class="top">
+    <a class="brand" href="#">
+      <span class="brand__mark" aria-hidden="true">J&amp;J</span>
+      <span class="brand__name">J&amp;J Electrical Construction<small>LLC &middot; Nassau, NY</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#jobs">Jobs</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="top__call" href="tel:+15188582105">(518) 858-2105</a>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero__text">
+        <p class="tag">Sheet E-001 &middot; Electrician, Rensselaer County NY</p>
+        <h1>From the meter to the last outlet.</h1>
+        <p class="lede">Jason Arsenault and his crew wire houses, new builds, pools, wells and commercial buildings around Nassau. 25 years in the trade, and emergency service is available 24 hours a day.</p>
+        <div class="hero__actions">
+          <a class="btn" href="tel:+15188582105">Call (518) 858-2105</a>
+          <a class="link" href="#services">See the services</a>
+        </div>
+        <p class="status" data-status hidden></p>
+      </div>
+
+      <figure class="diagram">
+        <svg class="oneline" viewBox="0 0 560 440" role="img" aria-label="Wiring diagram: utility power runs through the meter and transfer switch into a 400 amp main panel, with a generator and solar feeding in, and branch circuits out to the house, pool, EV charger, well pump and shop.">
+          <g class="draw">
+            <path pathLength="1" d="M90 14 V78"/>
+            <circle pathLength="1" cx="90" cy="100" r="22"/>
+            <path pathLength="1" d="M90 122 V150"/>
+            <rect pathLength="1" x="56" y="150" width="68" height="40"/>
+            <circle pathLength="1" cx="262" cy="104" r="22"/>
+            <path pathLength="1" d="M262 126 V170 H124"/>
+            <path pathLength="1" d="M90 190 V210 M90 210 A11 11 0 0 1 90 232 M90 232 V250"/>
+            <rect pathLength="1" x="408" y="80" width="80" height="46"/>
+            <path pathLength="1" d="M408 126 L488 80"/>
+            <path pathLength="1" d="M448 126 V196 M448 196 A11 11 0 0 1 448 218 M448 218 V250"/>
+            <path pathLength="1" class="bus" d="M56 250 H516"/>
+            <path pathLength="1" d="M110 250 V270 M110 270 A11 11 0 0 1 110 292 M110 292 V340"/>
+            <path pathLength="1" d="M200 250 V270 M200 270 A11 11 0 0 1 200 292 M200 292 V340"/>
+            <path pathLength="1" d="M290 250 V270 M290 270 A11 11 0 0 1 290 292 M290 292 V340"/>
+            <path pathLength="1" d="M380 250 V270 M380 270 A11 11 0 0 1 380 292 M380 292 V341"/>
+            <path pathLength="1" d="M470 250 V270 M470 270 A11 11 0 0 1 470 292 M470 292 V340"/>
+            <circle pathLength="1" cx="110" cy="354" r="14"/>
+            <path pathLength="1" d="M92 350 H128 M92 358 H128"/>
+            <rect pathLength="1" x="182" y="340" width="36" height="30"/>
+            <path pathLength="1" d="M186 357 q3 -5 6 0 t6 0 t6 0 t6 0"/>
+            <rect pathLength="1" x="272" y="340" width="36" height="30"/>
+            <circle pathLength="1" cx="380" cy="356" r="15"/>
+            <rect pathLength="1" x="450" y="340" width="40" height="26"/>
+          </g>
+          <path class="fill fade" d="M450 366 L490 340 V366 Z"/>
+          <g class="labels fade">
+            <text x="104" y="26">UTILITY</text>
+            <text x="90" y="104" text-anchor="middle" class="sm">kWh</text>
+            <text x="122" y="104">METER</text>
+            <text x="90" y="174" text-anchor="middle" class="sm">XFER</text>
+            <text x="262" y="109" text-anchor="middle" class="lg">G</text>
+            <text x="294" y="108">GENERATOR</text>
+            <text x="448" y="70" text-anchor="middle">SOLAR PV</text>
+            <text x="108" y="226">MAIN</text>
+            <text x="516" y="242" text-anchor="end" class="sm">MAIN BUS</text>
+            <text x="290" y="360" text-anchor="middle" class="sm">EV</text>
+            <text x="380" y="361" text-anchor="middle" class="lg">M</text>
+            <text x="110" y="398" text-anchor="middle">HOUSE</text>
+            <text x="200" y="398" text-anchor="middle">POOL</text>
+            <text x="290" y="398" text-anchor="middle">EV</text>
+            <text x="380" y="398" text-anchor="middle">WELL</text>
+            <text x="470" y="398" text-anchor="middle">SHOP</text>
+            <text x="110" y="414" text-anchor="middle" class="xs">OUTLETS</text>
+            <text x="200" y="414" text-anchor="middle" class="xs">PUMP + FILTER</text>
+            <text x="290" y="414" text-anchor="middle" class="xs">CHARGER</text>
+            <text x="380" y="414" text-anchor="middle" class="xs">PUMP</text>
+            <text x="470" y="414" text-anchor="middle" class="xs">COMMERCIAL</text>
+          </g>
+          <g class="markup fade">
+            <ellipse cx="124" cy="221" rx="34" ry="15" transform="rotate(-6 124 221)"/>
+            <path d="M160 214 C 178 204, 190 204, 204 208"/>
+            <text x="208" y="215">upgrades up to 400 amps</text>
+          </g>
+        </svg>
+        <figcaption>Fig. 1 &nbsp;Typical service &middot; Not to scale</figcaption>
+      </figure>
+    </section>
+
+    <section class="section" id="services">
+      <div class="callout">
+        <span class="bubble" aria-hidden="true"><b>2</b><i>E-001</i></span>
+        <div>
+          <h2>What we do</h2>
+          <p class="callout__sub">Symbol legend &middot; If your job isn't listed, call and ask</p>
+        </div>
+      </div>
+
+      <ul class="legend">
+        <li><svg class="sym"><use href="#s-400"/></svg><div><h3>Service upgrades</h3><p>Upgrades up to 400 amps, for houses and multi-unit buildings.</p></div></li>
+        <li><svg class="sym"><use href="#s-panel"/></svg><div><h3>Panel replacement</h3><p>New electrical panels to replace old or overloaded ones.</p></div></li>
+        <li><svg class="sym"><use href="#s-gen"/></svg><div><h3>Generators</h3><p>Generator installs and hookups.</p></div></li>
+        <li><svg class="sym"><use href="#s-pv"/></svg><div><h3>Solar</h3><p>Electrical work for solar installations.</p></div></li>
+        <li><svg class="sym"><use href="#s-ev"/></svg><div><h3>EV charging</h3><p>Chargers for home garages and charging stations for businesses.</p></div></li>
+        <li><svg class="sym"><use href="#s-pool"/></svg><div><h3>Pools</h3><p>Wiring for new inground pools, pumps, filters and outdoor utility boxes.</p></div></li>
+        <li><svg class="sym"><use href="#s-motor"/></svg><div><h3>Well systems</h3><p>Wiring for new well systems.</p></div></li>
+        <li><svg class="sym"><use href="#s-house"/></svg><div><h3>New construction</h3><p>Complete wiring for new builds, done to code.</p></div></li>
+        <li><svg class="sym"><use href="#s-jbox"/></svg><div><h3>Older homes</h3><p>Rewiring houses 100 years old and up, and fixing what past owners wired themselves.</p></div></li>
+        <li><svg class="sym"><use href="#s-meter"/></svg><div><h3>Meter and service lines</h3><p>Repairs to damaged meter boxes and service lines.</p></div></li>
+        <li><svg class="sym"><use href="#s-recep"/></svg><div><h3>Outlets and circuits</h3><p>New outlets and circuits, and tracking down the ones that quit.</p></div></li>
+        <li><svg class="sym"><use href="#s-xfmr"/></svg><div><h3>Commercial and industrial</h3><p>Installations for businesses and industrial sites.</p></div></li>
+        <li><svg class="sym"><use href="#s-rv"/></svg><div><h3>RV and camper power</h3><p>Power hookups for RVs and campers.</p></div></li>
+        <li><svg class="sym"><use href="#s-grow"/></svg><div><h3>Grow rooms and greenhouses</h3><p>Wiring for greenhouses and fully automated grow rooms.</p></div></li>
+        <li><svg class="sym"><use href="#s-data"/></svg><div><h3>Data and communications</h3><p>Network and communications cabling by a certified installer.</p></div></li>
+      </ul>
+    </section>
+
+    <section class="section" id="jobs">
+      <div class="callout">
+        <span class="bubble" aria-hidden="true"><b>3</b><i>E-001</i></span>
+        <div>
+          <h2>Job log</h2>
+          <p class="callout__sub">Recent work customers have written about</p>
+        </div>
+      </div>
+
+      <table class="sched">
+        <thead><tr><th scope="col">No.</th><th scope="col">Job</th><th scope="col">Scope</th></tr></thead>
+        <tbody>
+          <tr><td>01</td><td>Multi-unit building</td><td>150 amp service upgraded to 400 amps</td></tr>
+          <tr><td>02</td><td>Family home</td><td>New electrical panels</td></tr>
+          <tr><td>03</td><td>Home with an electric car</td><td>Service upgrade and EV charger</td></tr>
+          <tr><td>04</td><td>New inground pool</td><td>All pool electrical, with the equipment neatly organized</td></tr>
+          <tr><td>05</td><td>New well</td><td>Well system wired. Old amateur wiring from past owners turned up along the way.</td></tr>
+          <tr><td>06</td><td>New house</td><td>Wired and brought up to code at a fair price</td></tr>
+          <tr><td>07</td><td>Damaged meter box</td><td>Meter box and line repaired over four visits</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section print" id="reviews">
+      <div class="callout callout--inverse">
+        <span class="bubble" aria-hidden="true"><b>4</b><i>E-001</i></span>
+        <div>
+          <h2>Reviews</h2>
+          <p class="callout__sub">5.0 average &middot; 21 reviews on Google</p>
+        </div>
+      </div>
+
+      <ol class="notes">
+        <li>
+          <blockquote>They explained everything along the way, made sure the job was done right the first time.</blockquote>
+          <p>Jacki R. &middot; new electrical panels</p>
+        </li>
+        <li>
+          <blockquote>His knowledge, professionalism and attention to detail was amazing. Their work is extremely neat.</blockquote>
+          <p>Sharon P. &middot; service upgrade</p>
+        </li>
+        <li>
+          <blockquote>Jason comes when he promises and gets the work done.</blockquote>
+          <p>Ellen S. &middot; service upgrade and EV charger</p>
+        </li>
+        <li>
+          <blockquote>All the equipment that Jason installed is nicely organized and well designed.</blockquote>
+          <p>Tom C. &middot; inground pool</p>
+        </li>
+        <li>
+          <blockquote>Helped me get everything I needed to meet electrical code done at a very fair price.</blockquote>
+          <p>Nick D. &middot; new build</p>
+        </li>
+        <li>
+          <blockquote>He knows his stuff and does everything right.</blockquote>
+          <p>Joan S. &middot; well system</p>
+        </li>
+      </ol>
+      <a class="link link--inverse" href="https://www.google.com/maps/search/?api=1&amp;query=J+%26+J+Electrical+Construction+LLC+177+Rohloff+Rd+Nassau+NY" target="_blank" rel="noopener">Read all 21 reviews on Google</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="callout">
+        <span class="bubble" aria-hidden="true"><b>5</b><i>E-001</i></span>
+        <div>
+          <h2>About J&amp;J</h2>
+          <p class="callout__sub">General notes</p>
+        </div>
+      </div>
+      <div class="about">
+        <ol class="gnotes">
+          <li>J&amp;J is Jason Arsenault's company. He has been doing commercial, industrial and residential installations for 25 years.</li>
+          <li>Some customers have been calling him back for more than a decade.</li>
+          <li>The shop is on Rohloff Road in Nassau. A local pool company recommends him to its customers when their pool equipment needs an electrician.</li>
+          <li>Certified data and communications installer.</li>
+          <li>In Jason's words: "There isn't anything we can't wire."</li>
+        </ol>
+        <aside class="redline">
+          <span class="redline__hand">note:</span>
+          <p><strong>Military and first responder discount.</strong> Mention it when you call.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--last" id="contact">
+      <div class="callout">
+        <span class="bubble" aria-hidden="true"><b>6</b><i>E-001</i></span>
+        <div>
+          <h2>Contact</h2>
+          <p class="callout__sub">Title block &middot; Call to set up an estimate or a service visit</p>
+        </div>
+      </div>
+
+      <div class="tblock">
+        <div class="tb tb--phone">
+          <span class="tb__k">Call</span>
+          <a href="tel:+15188582105">(518) 858-2105</a>
+          <svg class="scribble" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 12 C 60 4, 140 18, 200 9 S 280 8, 296 13"/></svg>
+        </div>
+        <div class="tb tb--firm">
+          <span class="tb__k">Contractor</span>
+          <strong>J&amp;J Electrical Construction LLC</strong>
+          <span>177 Rohloff Rd, Nassau, NY 12123</span>
+          <a class="link" href="https://www.google.com/maps/dir/?api=1&amp;destination=177+Rohloff+Rd+Nassau+NY+12123" target="_blank" rel="noopener">Get directions</a>
+        </div>
+        <div class="tb">
+          <span class="tb__k">Office hours</span>
+          <span>Mon&ndash;Fri, 7 AM&ndash;7 PM</span>
+          <span>Sat&ndash;Sun closed</span>
+        </div>
+        <div class="tb">
+          <span class="tb__k">Emergency</span>
+          <span>24 hours</span>
+        </div>
+        <div class="tb">
+          <span class="tb__k">Right now</span>
+          <span data-status-plain>Call to check</span>
+        </div>
+        <div class="tb">
+          <span class="tb__k">Email</span>
+          <a class="link" href="mailto:JandJelectric@nycap.rr.com">JandJelectric@nycap.rr.com</a>
+        </div>
+        <div class="tb">
+          <span class="tb__k">Facebook</span>
+          <a class="link" href="https://www.facebook.com/Highvoltage1313" target="_blank" rel="noopener">@Highvoltage1313</a>
+        </div>
+        <div class="tb">
+          <span class="tb__k">Area</span>
+          <span>Rensselaer County, NY</span>
+        </div>
+        <div class="tb">
+          <span class="tb__k">Discount</span>
+          <span>Military and first responders</span>
+        </div>
+        <div class="tb tb--small">
+          <span class="tb__k">Scale</span><span>NTS</span>
+        </div>
+        <div class="tb tb--small">
+          <span class="tb__k">Date</span><span id="today">2026</span>
+        </div>
+        <div class="tb tb--small">
+          <span class="tb__k">Sheet</span><span>E-001 of 1</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <span>&copy; <span id="yr">2026</span> J&amp;J Electrical Construction LLC</span>
+    <span>177 Rohloff Rd, Nassau, NY 12123</span>
+  </footer>
+</div>
+
+<a class="callbar" href="tel:+15188582105">Call (518) 858-2105</a>
+
+<script>
+  (function () {
+    var now = new Date();
+    try {
+      var parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', hour12: false
+      }).formatToParts(now);
+      var day = parts.find(function (p) { return p.type === 'weekday'; }).value;
+      var hour = parseInt(parts.find(function (p) { return p.type === 'hour'; }).value, 10) % 24;
+      var weekday = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'].indexOf(day) !== -1;
+      var open = weekday && hour >= 7 && hour < 19;
+      var msg;
+      if (open) msg = 'Open now until 7 PM';
+      else if (weekday && hour < 7) msg = 'Closed. Opens today at 7 AM';
+      else if (day === 'Fri' || day === 'Sat' || day === 'Sun') msg = 'Closed. Opens Monday at 7 AM';
+      else msg = 'Closed. Opens tomorrow at 7 AM';
+      document.querySelectorAll('[data-status]').forEach(function (el) {
+        el.textContent = msg;
+        el.classList.add(open ? 'is-open' : 'is-closed');
+        el.hidden = false;
+      });
+      document.querySelectorAll('[data-status-plain]').forEach(function (el) { el.textContent = msg; });
+      document.getElementById('today').textContent = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    } catch (e) {}
+    document.getElementById('yr').textContent = now.getFullYear();
+  })();
+</script>
+</body>
+</html>
